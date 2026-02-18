@@ -2,6 +2,7 @@ name: "🐛 Bug Report"
 description: Report a bug to help us improve
 title: "[Bug]: "
 labels: ["bug"]
+type: "Bug"
 body:
   - type: markdown
     attributes:
@@ -51,18 +52,6 @@ body:
       label: Screenshots / Screen Recordings
       description: Drag and drop screenshots or screen recordings here. This greatly helps us diagnose the issue visually.
       placeholder: Paste or drag images here...
-
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment
-      description: Tell us about the environment where this bug occurs.
-      placeholder: |
-        - OS: e.g. macOS 14, Windows 11
-        - Browser: e.g. Chrome 121, Firefox 122
-        - App version / branch: e.g. v2.3.1
-    validations:
-      required: true
 
   - type: textarea
     id: additional
